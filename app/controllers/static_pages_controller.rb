@@ -1,7 +1,10 @@
 class StaticPagesController < ApplicationController
-  def home
+  def home# home.html.erb->attached view
   end
 
-  def help
+  def help# help.html.erb->attached view
+  end
+
+  def about
   end
 end
