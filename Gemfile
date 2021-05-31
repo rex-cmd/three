@@ -22,6 +22,8 @@ gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'rexml'
 gem 'bootstrap-sass'
+gem 'rails-controller-testing'
+gem 'bcrypt'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
