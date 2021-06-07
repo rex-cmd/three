@@ -14,5 +14,6 @@ Rails.application.routes.draw do
   resources :users
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :upgrate]
+  resources :microposts, only: [:create, :destroy]#/microposts => POST, /microposts/1 => DELETE
   # For details on the DSL available within sthis file, see https://guides.rubyonrails.org/routing.html
 end
